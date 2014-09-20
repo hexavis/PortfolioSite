@@ -85,6 +85,7 @@
   <ItemGroup>
     <Content Include="css\foundation.css" />
     <Content Include="css\foundation.min.css" />
+    <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\reset.css" />
     <Content Include="home.html" />
@@ -113,6 +114,7 @@
     <Content Include="js\vendor\jquery.js" />
     <Content Include="js\vendor\modernizr.js" />
     <Content Include="js\vendor\placeholder.js" />
+    <None Include="Resources\logo.png" />
     <Content Include="robots.txt" />
     <Content Include="Web.config" />
   </ItemGroup>

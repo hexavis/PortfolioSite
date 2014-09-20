@@ -1,9 +1,74 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Thing</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/foundation.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="row">
+        <!--right hand aside-->
+        <aside class="large-1 medium-1 columns" >
+            <ul class="side-nav">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </aside>
+            <!--main content-->
+        <div class="large-10 medium-10 small-10 columns">
+            <div class="row">
+                <!--logo-->
+                <div class="large-4 medium-4  small-4 columns">
+                   
+                </div>
+                <!--Tag line and thing-->
+                <div class="large-8 medium-8  small-8 columns">
+                    <h1>Hello there beautiful.</h1>
+                    <article> an article goes here.
+                    </article>
+                </div>
+                <!--featured thing goes here-->
+                <div class="row">
+                    <div class="large-12 medium-12  small-12 columns">
+                        the orbit thing goes here
+                    </div>
+                </div>
 
+            </div>
+        </div>
+        <!--Left hand aside-->
+        <aside class="large-1 medium-1 columns">
+            <ul class="side-nav">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </aside>
+    </div>
+        <!--footer-->
+        <div class="row">
+            <footer class="large-12 columns">
+                This is the footer
+            </footer>
+        </div>
+
+    
+
+
+
+
+    <!--Javascript-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
