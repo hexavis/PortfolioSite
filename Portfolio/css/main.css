@@ -1,5 +1,156 @@
-﻿/* for testing*/
-*:not(body):not(html){
-    box-sizing:border-box;
-    border:1px dashed #000;
+﻿#main{
+    background-image: url('/../img/backgroundBody.png');
+    background-color:#3d276f;
+}
+
+/*This are the left link images*/
+#home:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/homeNorm.png');
+}
+#home:hover{
+    background-image:url('/../img/homehover.png');
+}
+#homecurrent:link{
+     height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image:url('/../img/homeActive.png');
+}
+
+#me:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/meNorm.png');
+}
+#me:hover{
+    background-image:url('/../img/meHover.png');
+}
+#mecurrent:link{
+     height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image:url('/../img/meActive.png');
+}
+
+#projects:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/projectNorm.png');
+}
+#projects:hover{
+    background-image:url('/../img/projectHover.png');
+}
+#projectscurrent:link{
+     height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image:url('/../img/projectActive.png');
+}
+
+#services:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/servicesNorm.png');
+}
+#services:hover{
+    background-image:url('/../img/servicesHover.png');
+}
+#servicescurrent:link{
+     height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image:url('/../img/sevicesActive.png');
+}
+
+#contact:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/contactNorm.png');
+}
+#contact:hover{
+    background-image:url('/../img/contactHover.png');
+}
+#contactcurrent:link{
+     height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image:url('/../img/contactActive.png');
+}
+
+/*These are the right link images*/
+#git:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/gitNorm.png');
+}
+#git:hover{
+    background-image:url('/../img/gitHover.png');
+}
+
+#facebook:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/facebookNorm.png');
+}
+#facebook:hover{
+    background-image:url('/../img/facebookHover.png');
+}
+
+#linkedin:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/linkedinNorm.png');
+}
+#linkedin:hover{
+    background-image:url('/../img/linkedinHover.png');
+}
+
+#tumblr:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/tumblrNorm.png');
+}
+#tumblr:hover{
+    background-image:url('/../img/tumblrHover.png');
+}
+
+#twitter:link {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: transparent center top no-repeat;
+    background-image: url('/../img/twitterNorm.png');
+}
+#twitter:hover{
+    background-image:url('/../img/twitterHover.png');
+}
+
+
+aside{
+    background-color:#3d276f;
 }

@@ -92,6 +92,33 @@
     <Content Include="css\reset.css" />
     <Content Include="home.html" />
     <Content Include="humans.txt" />
+    <Content Include="img\backgroundBody.png" />
+    <Content Include="img\contactActive.png" />
+    <Content Include="img\contactHover.png" />
+    <Content Include="img\contactNorm.png" />
+    <Content Include="img\facebookHover.png" />
+    <Content Include="img\facebookNorm.png" />
+    <Content Include="img\gitHover.png" />
+    <Content Include="img\gitNorm.png" />
+    <Content Include="img\homeActive.png" />
+    <Content Include="img\homehover.png" />
+    <Content Include="img\homeNorm.png" />
+    <Content Include="img\linkedinHover.png" />
+    <Content Include="img\linkedinNorm.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\meActive.png" />
+    <Content Include="img\meHover.png" />
+    <Content Include="img\meNorm.png" />
+    <Content Include="img\projectActive.png" />
+    <Content Include="img\projectHover.png" />
+    <Content Include="img\projectNorm.png" />
+    <Content Include="img\servicesHover.png" />
+    <Content Include="img\servicesNorm.png" />
+    <Content Include="img\sevicesActive.png" />
+    <Content Include="img\tumblrHover.png" />
+    <Content Include="img\tumblrNorm.png" />
+    <Content Include="img\twitterHover.png" />
+    <Content Include="img\twitterNorm.png" />
     <Content Include="js\foundation.min.js" />
     <Content Include="js\foundation\foundation.abide.js" />
     <Content Include="js\foundation\foundation.accordion.js" />
@@ -118,6 +145,32 @@
     <Content Include="js\vendor\placeholder.js" />
     <None Include="Resources\logo.png" />
     <None Include="Resources\logoreal.png" />
+    <None Include="Resources\backgroundBody.png" />
+    <None Include="Resources\contactActive.png" />
+    <None Include="Resources\contactHover.png" />
+    <None Include="Resources\contactNorm.png" />
+    <None Include="Resources\facebookHover.png" />
+    <None Include="Resources\facebookNorm.png" />
+    <None Include="Resources\gitHover.png" />
+    <None Include="Resources\gitNorm.png" />
+    <None Include="Resources\homeActive.png" />
+    <None Include="Resources\homehover.png" />
+    <None Include="Resources\homeNorm.png" />
+    <None Include="Resources\linkedinHover.png" />
+    <None Include="Resources\linkedinNorm.png" />
+    <None Include="Resources\meActive.png" />
+    <None Include="Resources\meHover.png" />
+    <None Include="Resources\meNorm.png" />
+    <None Include="Resources\projectActive.png" />
+    <None Include="Resources\projectHover.png" />
+    <None Include="Resources\projectNorm.png" />
+    <None Include="Resources\servicesHover.png" />
+    <None Include="Resources\servicesNorm.png" />
+    <None Include="Resources\sevicesActive.png" />
+    <None Include="Resources\tumblrHover.png" />
+    <None Include="Resources\tumblrNorm.png" />
+    <None Include="Resources\twitterHover.png" />
+    <None Include="Resources\twitterNorm.png" />
     <Content Include="robots.txt" />
     <Content Include="services.html" />
     <Content Include="Web.config" />
@@ -146,9 +199,9 @@
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
