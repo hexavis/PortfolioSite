@@ -4,7 +4,8 @@
 }
 #main{
     min-height:600px;  
-    background-color:#b6ff00;
+    background-image: url('/../img/mainBG.png');
+    /*background-color:#b6ff00;*/
     background-repeat: repeat-y;
     background-size: 100% auto;
     padding-right: 10px;
@@ -13,12 +14,17 @@
     
 h1{
     font-family:'Birch Std','Blackoak Std';
+    background-color:#ffd800;
 }
 aside{
     width: 500px;
     align-content:center;
 }
 
+footer{
+     background-color:#ffd800;
+     text-align:center;
+}
 
 /*This are the left link images*/
 #home:link {

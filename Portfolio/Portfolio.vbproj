@@ -171,6 +171,7 @@
     <None Include="Resources\tumblrNorm.png" />
     <None Include="Resources\twitterHover.png" />
     <None Include="Resources\twitterNorm.png" />
+    <Content Include="projects.html" />
     <Content Include="robots.txt" />
     <Content Include="services.html" />
     <Content Include="Web.config" />
