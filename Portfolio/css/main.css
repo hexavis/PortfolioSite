@@ -1,7 +1,24 @@
-﻿#main{
-    background-image: url('/../img/backgroundBody.png');
+﻿body{
     background-color:#3d276f;
+    align-content:center;
 }
+#main{
+    min-height:600px;  
+    background-color:#b6ff00;
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+    
+h1{
+    font-family:'Birch Std','Blackoak Std';
+}
+aside{
+    width: 500px;
+    align-content:center;
+}
+
 
 /*This are the left link images*/
 #home:link {
@@ -10,6 +27,7 @@
     display: block;
     background: transparent center top no-repeat;
     background-image: url('/../img/homeNorm.png');
+  
 }
 #home:hover{
     background-image:url('/../img/homehover.png');
@@ -28,6 +46,7 @@
     display: block;
     background: transparent center top no-repeat;
     background-image: url('/../img/meNorm.png');
+    float: right; 
 }
 #me:hover{
     background-image:url('/../img/meHover.png');
@@ -38,6 +57,7 @@
     display: block;
     background: transparent center top no-repeat;
     background-image:url('/../img/meActive.png');
+    float: left; 
 }
 
 #projects:link {
@@ -46,6 +66,7 @@
     display: block;
     background: transparent center top no-repeat;
     background-image: url('/../img/projectNorm.png');
+    float: left; 
 }
 #projects:hover{
     background-image:url('/../img/projectHover.png');
@@ -56,6 +77,7 @@
     display: block;
     background: transparent center top no-repeat;
     background-image:url('/../img/projectActive.png');
+    float: left; 
 }
 
 #services:link {
@@ -64,6 +86,7 @@
     display: block;
     background: transparent center top no-repeat;
     background-image: url('/../img/servicesNorm.png');
+    float: left; 
 }
 #services:hover{
     background-image:url('/../img/servicesHover.png');
@@ -74,6 +97,7 @@
     display: block;
     background: transparent center top no-repeat;
     background-image:url('/../img/sevicesActive.png');
+    float: left; 
 }
 
 #contact:link {
@@ -82,6 +106,7 @@
     display: block;
     background: transparent center top no-repeat;
     background-image: url('/../img/contactNorm.png');
+    float: left; 
 }
 #contact:hover{
     background-image:url('/../img/contactHover.png');
@@ -92,6 +117,7 @@
     display: block;
     background: transparent center top no-repeat;
     background-image:url('/../img/contactActive.png');
+    float: left; 
 }
 
 /*These are the right link images*/
@@ -126,6 +152,7 @@
 }
 #linkedin:hover{
     background-image:url('/../img/linkedinHover.png');
+
 }
 
 #tumblr:link {
@@ -148,9 +175,4 @@
 }
 #twitter:hover{
     background-image:url('/../img/twitterHover.png');
-}
-
-
-aside{
-    background-color:#3d276f;
 }
