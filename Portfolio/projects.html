@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<!--About me Page; Jacqueline Richard; Portfolio; This page is suppose to be all about me. :) -->
+<!--Projects Page; Jacqueline Richard; Portfolio; This page shows some of the projects and illustrations i've done in the past-->
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -8,14 +8,6 @@
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/foundation.min.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-   
-     <!--Allow for  the correct link to be 'active'-->
-    <style type="text/css">
-        #me a:visited {
-            background-image: url('/../img/meActive.png');
-        }
-    </style>
-
 </head>
 <body>
 
@@ -33,10 +25,10 @@
                 <li><a href="home.html" id="home" title="Home Page"></a></li>
             </ul>
             <ul class="left">
-                <li><a href="aboutme.html" id="mecurrent" title="About Me"></a></li>
+                <li><a href="aboutme.html" id="me" title="About Me"></a></li>
             </ul>
             <ul class="left">
-                <li><a href="projects.html" id="projects" title="Projects"></a></li>
+                <li><a href="projects.html" id="projectscurrent" title="Projects"></a></li>
             </ul>
             <ul class="left">
                 <li><a href="services.html" id="services" title="Services"></a></li>
@@ -44,48 +36,34 @@
             <ul class="left">
                 <li><a href="contactme.html" id="contact" title="Contact Me"></a> </li>
             </ul>
-
         </aside>
     </div>
 
- 
-        <!--main content-->
+    <!--main content-->
+
     <div id="main" class="row">
-        <div class="row">
+     
+        <!--Tag line and thing-->
+        <div class="large-10 medium-10  large-centered medium-centered columns">
+            <h1>Website Projects</h1>
 
-            <!--the picture of me-->
-            <div class="large-10 medium-10  large-centered medium-centered columns">
-                <p></p>
-                <img src="img/self.png" />
-                <p></p>
-            </div>
+            <a href="https://github.com/hexavis/TotoroWebsite"><img src="img/totoro.png" alt="Totoro" /></a>
+            <a href="https://github.com/hexavis/retro-site"><img src="img/retro.png" alt="Retro" /></a>
+            <a href="https://github.com/hexavis/CitriaticGalleries"><img src="img/cGalleries.png" alt="slide 3" /></a>
+        </div>
 
-            <!--Tag line and thing-->
-            <div class="large-10 medium-10  large-centered medium-centered columns">
-                <h1>All about me~!</h1>
-                <article>
-                  What can I say about myself... well not much. I'm just a chic that does some developing and illustrations.
-                  </article> 
-                    <h1>Relative Industry Experience</h1> 
-                <article>   
-                 Trained in the usage of:
-                       <p>=Software products: Visio, MS Office Suite, MS Outlook, Photoshop,  Maya, Mudbox, and Zbrush</p> 
-                    <p> =Programming products: Netbeans, Notepad++, Dreamweaver, MySQL Workbench,</p> 
-                    <p>=MS Expression Web 4</p>
-                    <p>=Entry level experience in</p>
-                    <p>=Programming/Languages: Java, OOP</p>
-                    <p>=Web Programming/Databases: HTML, CSS, PHP, MySQL</p>
-                    <p>=Familiar with operating systems: Windows 2007, XP, Vista, 8 and Mac OS</p>
-                    <p>=Organized and participated in team projects and can work independently</p>
-                    <p>=Worksmart Certificate – workplace Safety, Ministry of Labour</p>
-                </article>
-            </div>
+        <!--Tag line and thing-->
+        <div class="large-10 medium-10  large-centered medium-centered columns">
+            <h1>Illustrations</h1>
+            <article>
+                <a href="http://zhichuan.tumblr.com/post/92969428100/i-havent-drawn-that-much-lately-so-i-havent"><img src="img/chic.png" alt="chic" /></a>
+                <a href="http://zhichuan.tumblr.com/post/53782863525"><img src="img/chic2.png" alt="chic 2" /></a>
+                <a href="http://zhichuan.tumblr.com/post/46303206427"><img src="img/angry.png" alt="angry dude" /></a>
+            </article>
         </div>
     </div>
-     
- 
 
-        <!--right hand aside-->
+    <!--right hand aside-->
     <div class="row">
         <aside class="large-5 medium-5 large-centered medium-centered columns">
             <ul class="left">
@@ -112,9 +90,6 @@
             This site is &copy; CitrusAcid Ind. 2014 : Happily built with Foundation.
         </footer>
     </div>
-
-
- 
 
     <!--Javascript-->
     <script src="js/vendor/jquery.js"></script>

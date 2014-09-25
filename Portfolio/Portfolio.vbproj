@@ -92,8 +92,11 @@
     <Content Include="css\reset.css" />
     <Content Include="home.html" />
     <Content Include="humans.txt" />
+    <Content Include="img\angry.png" />
     <Content Include="img\backgroundBody.png" />
     <Content Include="img\cGalleries.png" />
+    <Content Include="img\chic.png" />
+    <Content Include="img\chic2.png" />
     <Content Include="img\contactActive.png" />
     <Content Include="img\contactHover.png" />
     <Content Include="img\contactNorm.png" />
@@ -116,6 +119,7 @@
     <Content Include="img\projectHover.png" />
     <Content Include="img\projectNorm.png" />
     <Content Include="img\retro.png" />
+    <Content Include="img\self.png" />
     <Content Include="img\servicesHover.png" />
     <Content Include="img\servicesNorm.png" />
     <Content Include="img\sevicesActive.png" />
