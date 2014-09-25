@@ -14,7 +14,11 @@
     
 h1{
     font-family:'Birch Std','Blackoak Std';
-    background-color:#ffd800;
+    background-image: url('/../img/header.png');
+    /*background-color:#ffd800;*/
+}
+h2{
+    font-family:FangSong;
 }
 aside{
     width: 500px;
@@ -22,7 +26,9 @@ aside{
 }
 
 footer{
-     background-color:#ffd800;
+     background-image: url('/../img/header.png');
+     /*background-color:#ffd800;*/
+    color: #ffffff;
      text-align:center;
 }
 
